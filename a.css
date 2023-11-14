@@ -1,0 +1,750 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+:root {
+  --3rem: 3rem;
+}
+
+.DataAreah1Textbr {
+  display: none;
+}
+
+.navbar-toggler {
+  display: none;
+}
+header {
+  background: linear-gradient(
+    90deg,
+    #540654,
+    #cc0d85 50%,
+    #540654 100%,
+    #00d4ff 0
+  );
+
+  width: 100%;
+  z-index: 999999;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+}
+
+#responsive-menu {
+  background: linear-gradient(
+    90deg,
+    #540654,
+    #cc0d85 50%,
+    #540654 100%,
+    #00d4ff 0
+  );
+
+  width: 100%;
+  position: fixed;
+  margin-top: 4rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999999;
+}
+aside h1 {
+  margin-left: 4.5rem;
+}
+
+header aside,
+section {
+  display: flex;
+}
+
+#menu-and-button {
+  align-items: center;
+  margin-right: 9rem;
+}
+
+#main-menu {
+  align-items: center;
+}
+
+#main-menu nav {
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .d-none-on-991 {
+    display: none;
+  }
+  .d-block-on-991 {
+    display: block;
+  }
+  .d-flex-on-991 {
+    display: flex !important;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  aside h1 {
+    margin-left: var(--3rem);
+  }
+
+  #menu-and-button {
+    margin-right: var(--3rem);
+  }
+}
+
+@media screen and (max-width: 969px) {
+  #main-menu nav {
+    padding: 0 10.5rem;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  #DataArea h1 {
+    padding-bottom: 2.313rem !important;
+    font-size: 1.563rem !important;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  #main-menu nav {
+    padding: 0 5.5rem;
+  }
+}
+
+@media screen and (max-width: 783px) {
+  .DataAreaTexts a {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main-menu nav {
+    padding: 0 3.5rem;
+  }
+}
+
+@media screen and (max-width: 754px) {
+  #HireTutorArea {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+  #HireTutorArea img {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 746px) {
+  #DataArea h1 {
+    padding-bottom: 2.313rem !important;
+    font-size: 1.125rem !important;
+  }
+  .DataAreaTexts a {
+    margin: 0.5rem !important;
+    font-size: 1.313rem !important;
+    border-radius: 0.75rem !important;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  #DataArea h1 {
+    padding-bottom: 2.313rem !important;
+    font-size: 1.125rem !important;
+  }
+  .DataAreaTexts a {
+    margin: 0.5rem !important;
+    font-size: 1.313rem !important;
+    border-radius: 0.75rem !important;
+  }
+}
+
+@media screen and (max-width: 712px) {
+  #main-menu nav {
+    padding: 0 2.5rem;
+  }
+
+  #TutionTypeAreaCards {
+    flex-direction: column;
+  }
+
+  #TutionTypeAreaCards img {
+    width: 100% !important;
+  }
+
+  #TutionTypeAreaCards .TutionTypeAreaCardsTextGroup {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #main-menu nav {
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  #AdsArea {
+    flex-direction: column;
+    padding-bottom: 2.938rem;
+  }
+
+  #AdsArea > div {
+    margin: 0 !important;
+  }
+
+  #AdsArea img {
+    width: 100% !important;
+  }
+
+  #AdsArea div:last-child {
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  #main-menu nav {
+    padding: 0 0.9rem;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  #newsletteremail {
+    padding-right: 70% !important;
+  }
+}
+
+@media screen and (max-width: 607px) {
+  #StatisticsArea {
+    flex-direction: column;
+  }
+  #StatisticsArea img {
+    width: 30vw !important;
+  }
+}
+
+#main-menu nav a {
+  margin-right: 4rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1231px) {
+  .DataAreaTexts a {
+    padding: 2rem 5rem !important;
+  }
+}
+@media screen and (max-width: 1210px) {
+  #main-menu nav a {
+    margin-right: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #main-menu nav a {
+    margin-right: 1.3rem;
+  }
+
+  .d-none-on-1200 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1197px) {
+  #DataArea {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 2560px) {
+  #footercontens {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  footer {
+    height: 0 !important;
+  }
+
+  #footercontens {
+    padding: 2.5rem !important;
+  }
+}
+
+@media screen and (max-width: 1191px) {
+  #main-menu nav a {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  #main-menu nav a {
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1103px) {
+  .DataAreaTexts a {
+    padding: 2rem 5rem !important;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  .DataAreaTexts a {
+    padding: 1rem 3rem !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #main-menu nav a {
+    margin-right: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1037px) {
+  #main-menu nav a {
+    margin-right: 1.1rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  #main-menu nav a {
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 1021px) {
+  #main-menu nav a {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  #main-menu nav a {
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1001px) {
+  #main-menu nav a {
+    margin-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 969px) {
+  #main-menu nav a {
+    margin-right: auto;
+    display: block;
+  }
+}
+
+#main-menu nav a:hover {
+  border-bottom: 0.2rem solid #09f;
+}
+#header-button-block {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header-button-block button {
+  padding: 0.4rem 0.5rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.1rem solid rgb(255, 255, 255);
+}
+
+/* Hero Section */
+#blankSection1 {
+  width: 100%;
+  border-bottom: 1rem solid #ffffff;
+}
+
+#heroSectionArT1 {
+  width: 100%;
+  background-color: #e0f0fd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#heroSectionArT2 {
+  width: 100%;
+  background-color: #e0f0fd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 833px) {
+  .d-none-on-833 {
+    display: none !important;
+  }
+}
+
+#HeroSectionSearch {
+  width: 100%;
+  background-color: #e0f0fd;
+  display: flex;
+  justify-content: center;
+}
+
+#HeroSectionSearchFormDiv {
+  background-color: #ffffff;
+  padding: 2rem 10rem;
+}
+
+@media screen and (max-width: 725px) {
+  #blankSection1 {
+    border-bottom: 0;
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  #NewsletterSection {
+    margin-bottom: 18rem !important;
+  }
+  #footercontens {
+    padding: 1.5rem !important;
+  }
+
+  #footercontens > div {
+    padding-right: 0 !important;
+  }
+
+  footer div:last-child nav {
+    flex-direction: column !important;
+  }
+
+  #bottomtext {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  #HeroSectionSearchFormDiv {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  #HeroSectionSearchForm .hero-section-form-filed {
+    display: block !important;
+  }
+}
+@media screen and (max-width: 409) {
+  #NewsletterSection {
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  #NewsletterSection {
+    margin-bottom: 5rem;
+  }
+  #footercontens {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  #blankSection1 {
+    height: 12vh;
+  }
+  #heroSectionHeadings h1 {
+    font-size: 1.25rem !important;
+    margin: 0;
+  }
+  #heroSectionHeadings h2 {
+    font-size: 1.1rem !important;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  #blankSection1 {
+    height: 12vh;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .DataAreaTexts a {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  #DataArea h1 {
+    margin: 0;
+    padding-bottom: 1.313rem !important;
+    font-size: 1rem !important;
+  }
+  .DataAreaTexts a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  #DataArea h1 {
+    display: none;
+  }
+  .DataAreah1Textbr {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  #heroSectionHeadings h1 {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  #heroSectionHeadings h1 {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  #HeroSectionSearchFormDiv {
+    padding: 0;
+  }
+
+  #newsletteremail {
+    padding-right: 30% !important;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  #newsletteremail {
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  #HeroSectionSearchFormDiv {
+    padding: 0.5rem;
+  }
+}
+
+#heroSearchButton1 {
+  color: white;
+  background: linear-gradient(90deg, #522b79 0%, #ed3284 100%);
+}
+
+/* About Service Area */
+
+#AboutServiceArea img {
+  padding-left: 1rem;
+  width: 41vw;
+}
+
+#AboutServiceArea div:first-child {
+  padding-top: 1.1rem;
+  padding-bottom: 1rem;
+}
+#AboutServiceArea div:last-child {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Tution Type Area */
+
+#TutionTypeAreaHeadingTexts {
+  width: 100%;
+  background: #f2f6fd;
+}
+
+#TutionTypeAreaCards {
+  width: 100%;
+  background: #f2f6fd;
+  justify-content: space-evenly;
+}
+
+#TutionTypeAreaCards img {
+  width: 25vw;
+}
+#TutionTypeAreaCards .TutionTypeAreaCardsTextGroup {
+  width: 25vw;
+}
+
+/* Hire Tutor Area */
+
+#HireTutorArea {
+  justify-content: center;
+  align-items: center;
+}
+
+#HireTutorArea img {
+  width: 40vw;
+}
+
+/* Data Area */
+#DataArea {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.DataAreaTexts a {
+  color: white;
+  text-decoration: none;
+  margin: 1.5rem;
+
+  font-size: 1.9rem;
+  padding: 2rem 8rem;
+  border-radius: 3rem;
+}
+.DataAreaTexts a:first-child {
+  background: linear-gradient(90deg, #522b79 0%, #ed3284 100%);
+}
+.DataAreaTexts a:last-child {
+  color: rgb(142, 11, 202);
+
+  border: 1px solid #7d0bda;
+}
+
+/* Statistics Area */
+
+#StatisticsAreaHeading {
+  justify-content: center;
+  align-items: center;
+}
+
+#StatisticsArea {
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.25rem;
+}
+#StatisticsArea div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#StatisticsArea h2 {
+  font-size: 1.313rem;
+}
+
+#StatisticsArea h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+#StatisticsArea img {
+  width: 10vw;
+}
+
+/* Ads Area */
+
+#AdsArea {
+  background-color: #f3f5f9;
+  justify-content: center;
+  align-items: center;
+}
+
+#AdsArea img {
+  width: 25vw;
+}
+
+/* News letter Section */
+
+#NewsletterSection {
+  background: #f4faff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 13rem;
+}
+#newsletterForm1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletteremail {
+  font-size: 1rem;
+  padding-right: 21rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+#newsletterForm1 button {
+  border-radius: 0.188rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  background: #0072b5;
+  padding: 0.7rem 3rem;
+  border: 0.1rem solid #009bd9;
+}
+
+#newsletterForm1 button:hover {
+  background: #00a6e8;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 13vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#footercontens > div {
+  padding-right: 4%;
+}
+#footercontens > div p {
+  color: white;
+}
+
+footer div:last-child nav {
+  display: flex;
+}
+
+footer div:last-child nav div {
+  padding: 0.5rem;
+}
+
+footer div:last-child nav div ul {
+  padding-left: 17px;
+}
+
+footer div:last-child nav div > h3 {
+  color: white;
+  font-size: 22px;
+}
+
+footer div:last-child nav div ul li {
+  list-style: none;
+}
+footer div:last-child nav div ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+#footercontens {
+  padding: 90px 30px 90px 120px;
+  background: #023b6d;
+  width: 100%;
+  display: flex;
+}
+
+#bottomtext {
+  font-size: 1.5rem;
+}
